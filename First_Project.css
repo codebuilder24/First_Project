@@ -75,5 +75,10 @@ img{
 }
  li :hover{
     background-color: black;
-
+}
+footer {
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(1, 1, 32);
 }
