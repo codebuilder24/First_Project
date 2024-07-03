@@ -4,14 +4,18 @@
 }
 nav {
     background-color: rgb(1, 1, 34);
+    box-sizing: border-box;
+    width: 100%;
+    height: 70px;
+    
   
 }
 ._about{
     color: white;
     font-size: 25px;
     margin-left: 100px;
-    display: inline;
-    padding-bottom: 5px;
+    display: inline-flex;
+    margin-top: 20px;
 }
 .about_1 {
     color: yellow;
@@ -21,13 +25,55 @@ nav {
 li a {
     color: white;
     text-decoration: none;
-}
-
-ul li{
-    display: inline;
-    padding: 5px 10px;
+    padding: 5px 10px ;
     font-size: 20px;
 }
 ul {
     margin-left: 40%;
+    display: inline-flex;
+    list-style-type: none;
+    margin-top: -25px;
+
+}
+main {
+    background-color: rgb(26, 26, 46);
+    padding: 10%;
+}
+.text1 {
+    color: yellow;
+    font-size: 20px;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.text2 {
+    color: white;
+    font-size: 40px;
+    display: inline-block;
+    margin-bottom: 20px;
+    
+}
+.text3 {
+    color: rgb(151, 150, 150);
+    display: inline-flexbox;
+    margin-bottom: 10px;
+}
+button {
+    font-size: 20px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    background-color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 40px;
+    width: 160px;
+}
+.image {
+    display: inline-flexbox;
+    margin: -200px -50px 0 700px;
+}
+img{
+    border-radius: 40px;
+}
+ li :hover{
+    background-color: black;
+
 }
