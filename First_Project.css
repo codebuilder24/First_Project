@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+nav {
+    background-color: rgb(1, 1, 34);
+  
+}
+._about{
+    color: white;
+    font-size: 25px;
+    margin-left: 100px;
+    display: inline;
+    padding-bottom: 5px;
+}
+.about_1 {
+    color: yellow;
+    display: inline;
+    font-size: 25px;
+}
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li{
+    display: inline;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+ul {
+    margin-left: 40%;
+}
