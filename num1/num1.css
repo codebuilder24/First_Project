@@ -4,10 +4,14 @@ body {
 }
 .main1 {
     display: inline;
+    font-size: 50px;
 }
 .bar {
     display: inline;
+    font-size: 50px;
+    color: purple;
 }
 .bar1,.bar2,.bar3 {
     display: inline;
+    color: purple;
 }
