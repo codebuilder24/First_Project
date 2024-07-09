@@ -5,13 +5,18 @@ body {
 .main1 {
     display: inline;
     font-size: 50px;
+    position: ;
 }
 .bar {
     display: inline;
     font-size: 50px;
     color: purple;
+    /*position: inherit;*/
 }
 .bar1,.bar2,.bar3 {
-    display: inline;
+    display: inline-flex;
     color: purple;
+}
+.bar1 {
+    margin: -20px;
 }
