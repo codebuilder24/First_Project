@@ -2,3 +2,12 @@ body {
     background-color: black;
     color: rgb(255, 255, 255);
 }
+.main1 {
+    display: inline;
+}
+.bar {
+    display: inline;
+}
+.bar1,.bar2,.bar3 {
+    display: inline;
+}
