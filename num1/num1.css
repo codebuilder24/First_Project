@@ -94,8 +94,8 @@ text-align: center;
     background-repeat: no-repeat;
     background-size: cover;  
     color: white;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 3%;
+    padding-right: 10%;
     border-radius: 20px;
     margin-left: 45%;
 }
@@ -107,7 +107,19 @@ text-align: center;
 .mini2 {
     margin: -45px 0 -10px -24px;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
 }
 .mini3 {
     margin-left: 10px;
+    font-size: 10px;
+}
+.student {
+    background-color: aqua;
+    border-color: black;
+    font-size: 8px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-right: -130px;
+    border-radius: 20px;
+
 }
