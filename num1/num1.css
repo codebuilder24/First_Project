@@ -99,3 +99,15 @@ text-align: center;
     border-radius: 20px;
     margin-left: 45%;
 }
+.mini1 {
+    color: white;
+    font-size: 50px;
+    margin: 0 0 0 -132px;
+}
+.mini2 {
+    margin: -45px 0 -10px -24px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.mini3 {
+    margin-left: 10px;
+}
