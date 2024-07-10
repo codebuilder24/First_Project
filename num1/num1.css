@@ -88,26 +88,14 @@ text-align: center;
     text-align: center;
 }
 
-.mini1 {
-font-size: 40px;
-line-height: 70px;
-}
-.mini2 {
-    display: flexbox;
-    margin-top: -99px;
-    margin-left: 2px;
-    font-size: 10px;
 
-}
-.mini3 {
-    display: flexbox;
-    margin-left: 2px;
-    font-size: 10px;
-}
 .minibutton {
-    background-color: rgb(124, 36, 36);
-    border: 2px solid black;
-    width: 30%;
-    margin-left: 30%;
-
+    background-image:url(download.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 20px;
+    margin-left: 45%;
 }
