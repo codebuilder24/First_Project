@@ -91,35 +91,40 @@ text-align: center;
 
 .mini-button {
     background-image:url(download.jpeg);
+    background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;  
     color: white;
-    padding-left: 3%;
-    padding-right: 10%;
+    padding: 5% 0% 5% 10%;
     border-radius: 20px;
     margin-left: 45%;
+    width: 300px
 }
 .mini1 {
     color: white;
     font-size: 50px;
-    margin: 0 0 0 -132px;
+    margin: -20px 0 0 -192px;
 }
 .mini2 {
-    margin: -45px 0 -10px -24px;
+    margin: -35px 0 -10px -109px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 10px;
 }
 .mini3 {
-    margin-left: 10px;
+    margin-bottom: -10px;
+    margin-left: -82px;
     font-size: 10px;
 }
 .student {
+    display: block;
+    position: relative;
+    margin-top: -20px;
+    margin-right: -100px;
     background-color: aqua;
     border-color: black;
-    font-size: 8px;
+    font-size: 15px;
     font-weight: bolder;
     text-transform: uppercase;
-    margin-right: -130px;
     border-radius: 20px;
-
 }
+/*Leaving this project*/
