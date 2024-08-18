@@ -1,4 +1,100 @@
 * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+/*This is for the entire lists */
+ul li a {
+    
+    text-decoration: none;
+    list-style-type: none;
+
+}
+.aboveHeader {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.title {
+    display: inline-block;
+    margin: 30px  30px 0px 30px;
+}
+._work {
+    color: darkmagenta;
+}
+.ndaboveHeader {
     background-color: black;
+    border: 0.5px solid white;
+    color: white;
+    height: 200px;
+}
+.underScore {
+    color: blue;
+}
+.navigation li {
+    display:inline-block
+}
+.navigation li a {
+    color: #6e6e6e;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 5px 10px 5px 10px;
+}
+.navigation li a:hover {
+    background-color: yellow;
+    transition: 0.5s;
+    border-radius: 4px;
+    color: black;
+}
+.navigation {
+    margin-left: 200px;
+    margin-top: -30px;
+}
+sup {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 2px;
+}
+.last_navigation {
+    display: flexbox;
+    float: right;
+    margin-top: -30px;
+    color: #6e6e6e;
+}
+.belowHeader {
+    border: 1px solid white;
+    margin-top: 30px;
+    background-color: #6e6e6e;
+}
+.text {
+    background-color: black;
+    border-radius: 20px;
+    width: 90px;
+}
+.text:hover {
+    width: 180px;
+    transition: 0.5s;
+    color: #fff;
+    padding: 3px 3px 0px 3px;
+    border-color: yellow;
+}
+.signup {
+    border: 1 px solid black;
+    border-radius: 10px;
+    padding: 2px 3px 2px 3px;
+    font-size: medium;
+}
+.navigation_2 li {
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+.navigation_2 li a {
     color: #333;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 5px 10px 5px 10px;
 }
