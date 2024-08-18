@@ -6,16 +6,15 @@
 }
 /*This is for the entire lists */
 ul li a {
-    
     text-decoration: none;
     list-style-type: none;
-
 }
 .aboveHeader {
     background-color: #333;
     color: #fff;
     padding: 10px;
     text-align: center;
+    
 }
 .title {
     display: inline-block;
@@ -29,6 +28,9 @@ ul li a {
     border: 0.5px solid white;
     color: white;
     height: 200px;
+    
+    position: sticky;
+    top: 0;
 }
 .underScore {
     color: blue;
@@ -97,4 +99,61 @@ sup {
     text-decoration: none;
     list-style-type: none;
     padding: 5px 10px 5px 10px;
+}
+/*Coming to do the pop up for the navigations*/
+.ref_nav {
+    
+   display:none;
+   margin-top: 10px;
+    height: 795px;
+    overflow: auto;
+    width: 350px;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+
+}
+.ref_nav li {
+    margin: 10px;
+    padding: 10px 5px 10px 5px;
+    border-radius: 10px;
+}
+.ref_nav li a {
+    color: white;
+    display: inline-block;
+}
+.try {
+    position: relative;
+
+}
+.try:hover .ref_nav {
+    display: block;
+}
+.ref_nav li a:hover {
+    background-color:rgb(73, 66, 66);
+    color: white;
+    opacity: 90%;
+}
+.list1 a {
+border-left: 3px solid violet;
+}
+.list2 a {
+border-left: 3px solid blue;
+}
+.list3 a {
+border-left: 3px solid yellow;
+}
+.list4 a {
+border-left: 3px solid green;
+}
+.list5 a {
+border-left: 3px solid purple;
+}
+.list6 a {
+border-left: 3px solid rgb(255, 255, 255);
+}
+.list7 a {
+    border-left: 3px solid whitesmoke;
 }
