@@ -4,6 +4,9 @@
     margin: 0;
     font-size: 20px;
 }
+body {
+    background-color: black;
+}
 /*This is for the entire lists */
 ul li a {
     text-decoration: none;
@@ -14,7 +17,6 @@ ul li a {
     color: #fff;
     padding: 10px;
     text-align: center;
-    
 }
 .title {
     display: inline-block;
@@ -27,8 +29,7 @@ ul li a {
     background-color: black;
     border: 0.5px solid white;
     color: white;
-    height: 200px;
-    
+    height:110px;   
     position: sticky;
     top: 0;
 }
@@ -68,9 +69,11 @@ sup {
     color: #6e6e6e;
 }
 .belowHeader {
-    border: 1px solid white;
+    border-top: 1px solid white;
     margin-top: 30px;
     background-color: #6e6e6e;
+    font-size: 25px;
+    height: 31.9px;
 }
 .text {
     background-color: black;
@@ -101,8 +104,7 @@ sup {
     padding: 5px 10px 5px 10px;
 }
 /*Coming to do the pop up for the navigations*/
-.ref_nav {
-    
+.ref_nav {   
    display:none;
    margin-top: 10px;
     height: 600px;
@@ -113,7 +115,6 @@ sup {
     position: absolute;
     z-index: 1;
     box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
-
 }
 .ref_nav li {
     margin: 10px;
@@ -126,7 +127,6 @@ sup {
 }
 .try {
     position: relative;
-
 }
 .try:hover .ref_nav {
     display: block;
@@ -136,7 +136,6 @@ sup {
     background-color:rgb(73, 66, 66);
     color: white;
     opacity: 90%;
-
 }
 .list1 a {
 border-left: 3px solid violet;
@@ -159,10 +158,8 @@ border-left: 3px solid rgb(255, 255, 255);
 .list7 a {
     border-left: 3px solid whitesmoke;
 }
-
 /*The second drop down*/
-.ref_nav1 {
-    
+.ref_nav1 {   
    display:none;
    overflow: auto;
    margin-top: 10px;
@@ -173,7 +170,6 @@ border-left: 3px solid rgb(255, 255, 255);
     position: absolute;
     z-index: 1;
     box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
-
 }
 .ref_nav1 li {
     margin: 10px;
@@ -186,7 +182,6 @@ border-left: 3px solid rgb(255, 255, 255);
 }
 .try1 {
     position: relative;
-
 }
 .try1:hover .ref_nav1 {
     display: block;
@@ -196,7 +191,6 @@ border-left: 3px solid rgb(255, 255, 255);
     background-color:rgb(73, 66, 66);
     color: white;
     opacity: 90%;
-
 }
 .list11 a {
 border-left: 3px solid purple;
@@ -213,10 +207,8 @@ border-left: 3px solid yellow;
 .list55 a {
 border-left: 3px solid white;
 }
-
 /*The Third drop down*/
-.ref_nav2 {
-    
+.ref_nav2 {   
     display:none;
     margin-top: 10px;
      height: 520px;
@@ -227,7 +219,6 @@ border-left: 3px solid white;
      position: absolute;
      z-index: 1;
      box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
- 
  }
  .ref_nav2 li {
      margin: 10px;
@@ -240,7 +231,6 @@ border-left: 3px solid white;
  }
  .try2 {
      position: relative;
- 
  }
  .try2:hover .ref_nav2 {
      display: block;
@@ -290,17 +280,14 @@ border-left: 3px solid white;
  }
  .try3 {
      position: relative;
- 
  }
  .try3:hover .ref_nav3 {
      display: block;
-     transition: 0.2s;
  }
  .ref_nav3 li a:hover {
      background-color:rgb(73, 66, 66);
      color: white;
      opacity: 90%;
- 
  }
  .li1 a {
  border-left: 3px solid whitesmoke;
@@ -310,4 +297,41 @@ border-left: 3px solid white;
  }
  .li3 a {
  border-left: 3px solid whitesmoke;
+ }
+ .English {
+    float: right;
+    margin-top: -21px;
+ }
+ .left-section {
+    background-color: black;
+    width: 25%;
+    height: 100%;
+ }
+ .middle_part {
+    margin-left: 25%;
+    margin-top: -21%;
+    width: 60%;
+    background-color: black;
+    color: #fff;
+ }
+ .right_side {
+    float: right;
+    margin-top: -30%;
+    color: #fff;
+    width: 15%;
+ }
+ .navigation_2 li:hover {
+    text-decoration: underline;
+ }
+ .search {
+    margin:10px 0px 0px 20px;
+    background-color: black;
+    border-radius: 10px;
+    width: 100px;
+    padding: 5px 1px 4px 5px;
+    color: #fff;
+ }
+ .search:hover {
+    width: 70%;
+    border-color: yellow;
  }
