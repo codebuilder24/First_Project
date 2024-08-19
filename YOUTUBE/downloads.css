@@ -105,7 +105,7 @@ sup {
     
    display:none;
    margin-top: 10px;
-    height: 795px;
+    height: 600px;
     overflow: auto;
     width: 350px;
     background-color: black;
@@ -130,11 +130,13 @@ sup {
 }
 .try:hover .ref_nav {
     display: block;
+    transition: 0.2s;
 }
 .ref_nav li a:hover {
     background-color:rgb(73, 66, 66);
     color: white;
     opacity: 90%;
+
 }
 .list1 a {
 border-left: 3px solid violet;
@@ -157,3 +159,155 @@ border-left: 3px solid rgb(255, 255, 255);
 .list7 a {
     border-left: 3px solid whitesmoke;
 }
+
+/*The second drop down*/
+.ref_nav1 {
+    
+   display:none;
+   overflow: auto;
+   margin-top: 10px;
+    height: 565px;
+    width: 300px;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+
+}
+.ref_nav1 li {
+    margin: 10px;
+    padding: 10px 5px 10px 5px;
+    border-radius: 10px;
+}
+.ref_nav1 li a {
+    color: white;
+    display: inline-block;
+}
+.try1 {
+    position: relative;
+
+}
+.try1:hover .ref_nav1 {
+    display: block;
+    transition: 0.2s;
+}
+.ref_nav1 li a:hover {
+    background-color:rgb(73, 66, 66);
+    color: white;
+    opacity: 90%;
+
+}
+.list11 a {
+border-left: 3px solid purple;
+}
+.list22 a {
+border-left: 3px solid purple;
+}
+.list33 a {
+border-left: 3px solid blue;
+}
+.list44 a {
+border-left: 3px solid yellow;
+}
+.list55 a {
+border-left: 3px solid white;
+}
+
+/*The Third drop down*/
+.ref_nav2 {
+    
+    display:none;
+    margin-top: 10px;
+     height: 520px;
+     overflow: auto;
+     width: 350px;
+     background-color: black;
+     border-radius: 10px;
+     position: absolute;
+     z-index: 1;
+     box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+ 
+ }
+ .ref_nav2 li {
+     margin: 10px;
+     padding: 10px 5px 10px 5px;
+     border-radius: 10px;
+ }
+ .ref_nav2 li a {
+     color: white;
+     display: inline-block;
+ }
+ .try2 {
+     position: relative;
+ 
+ }
+ .try2:hover .ref_nav2 {
+     display: block;
+     transition: 0.2s;
+ }
+ .ref_nav2 li a:hover {
+     background-color:rgb(73, 66, 66);
+     color: white;
+     opacity: 90%;
+ }
+ .li11 a {
+ border-left: 3px solid purple;
+ }
+ .li22 a {
+ border-left: 3px solid purple;
+ }
+ .li33 a {
+ border-left: 3px solid purple;
+ }
+ .li44 a {
+ border-left: 3px solid purple;
+ }
+ .li55 a {
+ border-left: 3px solid purple;
+ }
+/*Fourth Drop Down*/
+ .ref_nav3 {
+    display:none;
+    margin-top: 10px;
+     height: 300px;
+     overflow: auto;
+     width: 350px;
+     background-color: black;
+     border-radius: 10px;
+     position: absolute;
+     z-index: 1;
+     box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+ }
+ .ref_nav3 li {
+     margin: 10px;
+     padding: 10px 5px 10px 5px;
+     border-radius: 10px;
+ }
+ .ref_nav3 li a {
+     color: white;
+     display: inline-block;
+ }
+ .try3 {
+     position: relative;
+ 
+ }
+ .try3:hover .ref_nav3 {
+     display: block;
+     transition: 0.2s;
+ }
+ .ref_nav3 li a:hover {
+     background-color:rgb(73, 66, 66);
+     color: white;
+     opacity: 90%;
+ 
+ }
+ .li1 a {
+ border-left: 3px solid whitesmoke;
+ }
+ .li2 a {
+ border-left: 3px solid whitesmoke;
+ }
+ .li3 a {
+ border-left: 3px solid whitesmoke;
+ }
